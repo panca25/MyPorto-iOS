@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0729E2CE2AEC36FF00B847E3 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0729E2CD2AEC36FF00B847E3 /* MainTabBarController.swift */; };
+		0729E2D12AEC37DD00B847E3 /* DonutChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0729E2CF2AEC37DD00B847E3 /* DonutChartViewController.swift */; };
+		0729E2D22AEC37DD00B847E3 /* DonutChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0729E2D02AEC37DD00B847E3 /* DonutChartViewController.xib */; };
+		0729E2D92AEC4D5F00B847E3 /* DataChart.json in Resources */ = {isa = PBXBuildFile; fileRef = 0729E2D82AEC4D5F00B847E3 /* DataChart.json */; };
+		0729E2DB2AEC4DA200B847E3 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0729E2DA2AEC4DA200B847E3 /* Models.swift */; };
+		0729E2DE2AEC8F4F00B847E3 /* DetailTransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0729E2DC2AEC8F4F00B847E3 /* DetailTransactionViewController.swift */; };
+		0729E2DF2AEC8F4F00B847E3 /* DetailTransactionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0729E2DD2AEC8F4F00B847E3 /* DetailTransactionViewController.xib */; };
+		0729E2E22AEC91C200B847E3 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0729E2E02AEC91C200B847E3 /* ItemCell.swift */; };
+		0729E2E32AEC91C200B847E3 /* ItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0729E2E12AEC91C200B847E3 /* ItemCell.xib */; };
+		0729E2E62AEC9E4200B847E3 /* LineChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0729E2E42AEC9E4200B847E3 /* LineChartViewController.swift */; };
+		0729E2E72AEC9E4200B847E3 /* LineChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0729E2E52AEC9E4200B847E3 /* LineChartViewController.xib */; };
+		073A71FC2AEB553C00347938 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073A71FB2AEB553C00347938 /* AppDelegate.swift */; };
+		073A71FE2AEB553C00347938 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073A71FD2AEB553C00347938 /* SceneDelegate.swift */; };
+		073A72052AEB553E00347938 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 073A72042AEB553E00347938 /* Assets.xcassets */; };
+		073A72082AEB553E00347938 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 073A72062AEB553E00347938 /* LaunchScreen.storyboard */; };
+		07B592672AEB5F1F00621E82 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B592662AEB5F1F00621E82 /* MainViewController.swift */; };
+		E2BA0269363D9ACC4F8C8F38 /* Pods_MyPorto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCE2C0C1932B78885562CD02 /* Pods_MyPorto.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0729E2CD2AEC36FF00B847E3 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		0729E2CF2AEC37DD00B847E3 /* DonutChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonutChartViewController.swift; sourceTree = "<group>"; };
+		0729E2D02AEC37DD00B847E3 /* DonutChartViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DonutChartViewController.xib; sourceTree = "<group>"; };
+		0729E2D82AEC4D5F00B847E3 /* DataChart.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = DataChart.json; sourceTree = "<group>"; };
+		0729E2DA2AEC4DA200B847E3 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		0729E2DC2AEC8F4F00B847E3 /* DetailTransactionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTransactionViewController.swift; sourceTree = "<group>"; };
+		0729E2DD2AEC8F4F00B847E3 /* DetailTransactionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailTransactionViewController.xib; sourceTree = "<group>"; };
+		0729E2E02AEC91C200B847E3 /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		0729E2E12AEC91C200B847E3 /* ItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemCell.xib; sourceTree = "<group>"; };
+		0729E2E42AEC9E4200B847E3 /* LineChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartViewController.swift; sourceTree = "<group>"; };
+		0729E2E52AEC9E4200B847E3 /* LineChartViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LineChartViewController.xib; sourceTree = "<group>"; };
+		073A71F82AEB553C00347938 /* MyPorto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPorto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		073A71FB2AEB553C00347938 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		073A71FD2AEB553C00347938 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		073A72042AEB553E00347938 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		073A72072AEB553E00347938 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		073A72092AEB553E00347938 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07B592662AEB5F1F00621E82 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		BCE2C0C1932B78885562CD02 /* Pods_MyPorto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyPorto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEBEC04CB1C08983C59387ED /* Pods-MyPorto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyPorto.release.xcconfig"; path = "Target Support Files/Pods-MyPorto/Pods-MyPorto.release.xcconfig"; sourceTree = "<group>"; };
+		EF3769BB88D2600D0D3E13D5 /* Pods-MyPorto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyPorto.debug.xcconfig"; path = "Target Support Files/Pods-MyPorto/Pods-MyPorto.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		073A71F52AEB553B00347938 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2BA0269363D9ACC4F8C8F38 /* Pods_MyPorto.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0729E2D32AEC49C900B847E3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0729E2DA2AEC4DA200B847E3 /* Models.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0729E2D42AEC49E000B847E3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0729E2CF2AEC37DD00B847E3 /* DonutChartViewController.swift */,
+				0729E2D02AEC37DD00B847E3 /* DonutChartViewController.xib */,
+				0729E2E42AEC9E4200B847E3 /* LineChartViewController.swift */,
+				0729E2E52AEC9E4200B847E3 /* LineChartViewController.xib */,
+				0729E2DC2AEC8F4F00B847E3 /* DetailTransactionViewController.swift */,
+				0729E2DD2AEC8F4F00B847E3 /* DetailTransactionViewController.xib */,
+				0729E2E02AEC91C200B847E3 /* ItemCell.swift */,
+				0729E2E12AEC91C200B847E3 /* ItemCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0729E2D62AEC49F600B847E3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0729E2CD2AEC36FF00B847E3 /* MainTabBarController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0729E2D72AEC4CF200B847E3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0729E2D82AEC4D5F00B847E3 /* DataChart.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		073A71EF2AEB553B00347938 = {
+			isa = PBXGroup;
+			children = (
+				073A71FA2AEB553C00347938 /* MyPorto */,
+				073A71F92AEB553C00347938 /* Products */,
+				9A1A9CA3B530B87A54682542 /* Pods */,
+				D0D614918FDA8504F04AA5E9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		073A71F92AEB553C00347938 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				073A71F82AEB553C00347938 /* MyPorto.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		073A71FA2AEB553C00347938 /* MyPorto */ = {
+			isa = PBXGroup;
+			children = (
+				073A71FB2AEB553C00347938 /* AppDelegate.swift */,
+				073A71FD2AEB553C00347938 /* SceneDelegate.swift */,
+				0729E2D72AEC4CF200B847E3 /* Resources */,
+				0729E2D32AEC49C900B847E3 /* Model */,
+				0729E2D42AEC49E000B847E3 /* Views */,
+				0729E2D62AEC49F600B847E3 /* Controllers */,
+				07B592662AEB5F1F00621E82 /* MainViewController.swift */,
+				073A72042AEB553E00347938 /* Assets.xcassets */,
+				073A72062AEB553E00347938 /* LaunchScreen.storyboard */,
+				073A72092AEB553E00347938 /* Info.plist */,
+			);
+			path = MyPorto;
+			sourceTree = "<group>";
+		};
+		9A1A9CA3B530B87A54682542 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EF3769BB88D2600D0D3E13D5 /* Pods-MyPorto.debug.xcconfig */,
+				EEBEC04CB1C08983C59387ED /* Pods-MyPorto.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D0D614918FDA8504F04AA5E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BCE2C0C1932B78885562CD02 /* Pods_MyPorto.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		073A71F72AEB553B00347938 /* MyPorto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 073A720C2AEB553E00347938 /* Build configuration list for PBXNativeTarget "MyPorto" */;
+			buildPhases = (
+				DBF7C1B0F923ED025DAE9EA7 /* [CP] Check Pods Manifest.lock */,
+				073A71F42AEB553B00347938 /* Sources */,
+				073A71F52AEB553B00347938 /* Frameworks */,
+				073A71F62AEB553B00347938 /* Resources */,
+				FE599A66A5926A07495B397D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyPorto;
+			productName = MyPorto;
+			productReference = 073A71F82AEB553C00347938 /* MyPorto.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		073A71F02AEB553B00347938 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					073A71F72AEB553B00347938 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 073A71F32AEB553B00347938 /* Build configuration list for PBXProject "MyPorto" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 073A71EF2AEB553B00347938;
+			productRefGroup = 073A71F92AEB553C00347938 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				073A71F72AEB553B00347938 /* MyPorto */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		073A71F62AEB553B00347938 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0729E2D92AEC4D5F00B847E3 /* DataChart.json in Resources */,
+				073A72082AEB553E00347938 /* LaunchScreen.storyboard in Resources */,
+				0729E2E72AEC9E4200B847E3 /* LineChartViewController.xib in Resources */,
+				0729E2E32AEC91C200B847E3 /* ItemCell.xib in Resources */,
+				073A72052AEB553E00347938 /* Assets.xcassets in Resources */,
+				0729E2D22AEC37DD00B847E3 /* DonutChartViewController.xib in Resources */,
+				0729E2DF2AEC8F4F00B847E3 /* DetailTransactionViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DBF7C1B0F923ED025DAE9EA7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyPorto-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE599A66A5926A07495B397D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyPorto/Pods-MyPorto-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyPorto/Pods-MyPorto-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyPorto/Pods-MyPorto-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		073A71F42AEB553B00347938 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0729E2E22AEC91C200B847E3 /* ItemCell.swift in Sources */,
+				07B592672AEB5F1F00621E82 /* MainViewController.swift in Sources */,
+				073A71FC2AEB553C00347938 /* AppDelegate.swift in Sources */,
+				0729E2DE2AEC8F4F00B847E3 /* DetailTransactionViewController.swift in Sources */,
+				0729E2CE2AEC36FF00B847E3 /* MainTabBarController.swift in Sources */,
+				0729E2DB2AEC4DA200B847E3 /* Models.swift in Sources */,
+				073A71FE2AEB553C00347938 /* SceneDelegate.swift in Sources */,
+				0729E2E62AEC9E4200B847E3 /* LineChartViewController.swift in Sources */,
+				0729E2D12AEC37DD00B847E3 /* DonutChartViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		073A72062AEB553E00347938 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				073A72072AEB553E00347938 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		073A720A2AEB553E00347938 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		073A720B2AEB553E00347938 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		073A720D2AEB553E00347938 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF3769BB88D2600D0D3E13D5 /* Pods-MyPorto.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3WGG463HSB;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyPorto/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MyPorto;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pancasetiawan.MyPorto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		073A720E2AEB553E00347938 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEBEC04CB1C08983C59387ED /* Pods-MyPorto.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3WGG463HSB;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyPorto/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MyPorto;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pancasetiawan.MyPorto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		073A71F32AEB553B00347938 /* Build configuration list for PBXProject "MyPorto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				073A720A2AEB553E00347938 /* Debug */,
+				073A720B2AEB553E00347938 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		073A720C2AEB553E00347938 /* Build configuration list for PBXNativeTarget "MyPorto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				073A720D2AEB553E00347938 /* Debug */,
+				073A720E2AEB553E00347938 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 073A71F02AEB553B00347938 /* Project object */;
+}

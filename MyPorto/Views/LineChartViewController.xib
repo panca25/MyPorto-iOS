@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LineChartViewController" customModule="MyPorto" customModuleProvider="target">
+            <connections>
+                <outlet property="chartHeight" destination="goY-OP-lRx" id="37z-n5-8kK"/>
+                <outlet property="chartWidth" destination="sll-HO-iyV" id="vlw-le-FL5"/>
+                <outlet property="labelTitle" destination="ZKc-Ea-9Cv" id="KPa-Vh-NBE"/>
+                <outlet property="lineChartView" destination="gck-FW-0mf" id="1cO-Yg-6hH"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZKc-Ea-9Cv">
+                    <rect key="frame" x="20" y="74" width="353" height="142"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="26"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gck-FW-0mf" customClass="LineChartView" customModule="Charts">
+                    <rect key="frame" x="16.666666666666657" y="246" width="360" height="360"/>
+                    <color key="backgroundColor" systemColor="separatorColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="360" id="goY-OP-lRx"/>
+                        <constraint firstAttribute="width" constant="360" id="sll-HO-iyV"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="gck-FW-0mf" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="6nM-wo-RhK"/>
+                <constraint firstItem="ZKc-Ea-9Cv" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="15" id="Vcl-7N-3Pf"/>
+                <constraint firstItem="ZKc-Ea-9Cv" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="e5C-fY-XNG"/>
+                <constraint firstItem="gck-FW-0mf" firstAttribute="top" secondItem="ZKc-Ea-9Cv" secondAttribute="bottom" constant="30" id="ilc-kJ-PcZ"/>
+                <constraint firstItem="gck-FW-0mf" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="mZK-bL-ytH"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="ZKc-Ea-9Cv" secondAttribute="trailing" constant="20" id="wfb-jH-oyI"/>
+            </constraints>
+            <point key="canvasLocation" x="6" y="21"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="separatorColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.28999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
